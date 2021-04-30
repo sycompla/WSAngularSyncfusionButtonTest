@@ -1,10 +1,15 @@
+
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+<h1>
+Hello Angular, Syncfusion Angular UI Button!
+ </h1>
+
+ <button ejs-button cssClass=”e-primary”>Button</button>
+ `
 })
 export class AppComponent {
-  title = 'syncfusion-angular-app';
 }
